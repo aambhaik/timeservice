@@ -1,0 +1,1 @@
+{"service": {"name": "TimerService", "tags": ["Timer", "proto:http", "route:/now"], "port": 9980, "check": {"args": ["curl", "localhost:9980/ping"], "interval": "10s"}  }}
